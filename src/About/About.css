@@ -1,0 +1,8 @@
+.About{
+    height: 100vh;
+    background: #fde2eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+}

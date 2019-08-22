@@ -1,0 +1,13 @@
+.Home{
+    background: url(../Assets/Background_One.svg);
+    background-size: cover;
+    height: 95vh;
+    width: 100vw;
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+

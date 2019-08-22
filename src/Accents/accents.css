@@ -1,0 +1,15 @@
+.Drips{
+    background: url(../Assets/softwave.svg), url(../Assets/softwave.svg);
+    background-size: 300px;
+    height: 10vh;
+    width: 100%;
+    position: absolute;
+    top: 86vh;
+    width: 100vw;
+    max-width: 100%;
+    
+}
+
+.dripsSVG{
+    fill: orange;
+}

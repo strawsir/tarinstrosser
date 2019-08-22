@@ -1,0 +1,10 @@
+.Contact{
+    background: lavender;
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+}

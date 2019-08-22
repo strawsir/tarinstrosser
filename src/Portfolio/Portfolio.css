@@ -1,0 +1,8 @@
+.Portfolio{
+    height: 100vh;
+    background: papayawhip;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+}

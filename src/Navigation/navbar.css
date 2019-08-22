@@ -1,0 +1,66 @@
+
+.NavBar{
+background: pink;
+width: 90vw;
+margin-left: auto;
+margin-right: auto;
+height: 125px;
+border-radius: 11px;
+margin-top: 5vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-size: 25px;
+overflow: hidden;
+position: fixed;
+z-index: 1000;
+}
+
+.NavRight{
+    display: flex;
+}
+
+.NavRight>div{
+    display: flex;
+    margin: 7px;
+    background: navy;
+    height: 125px;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    border-radius: 11PX;    
+    
+}
+.NavRight>div:hover{
+    
+    background: whitesmoke;
+    
+        
+}
+
+#navitem{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+@keyframes MOVE-BG {
+	from {
+		transform: translateX(0);
+	}
+	to { 
+		transform: translateX(46px);
+	}
+}
+
+/* @media (max-width: 1023){
+    .NavRight>div{
+        display: none !important;
+        background: purple;
+    }
+} */
+
+@media(max-width:1123px){
+    .NavRight>div{
+      display: none;
+    }
+  }
