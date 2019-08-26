@@ -1,8 +1,27 @@
 .About{
-    height: 100vh;
-    background: #fde2eb;
+    padding: 70px;
+    height: auto;
+    background: #6f6aa2;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 75px;
+    flex-wrap: wrap;
+    min-height: 50vh;
+}
+
+.aboutImage{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 10px solid white;
+}
+.aboutImage>img{
+    height: 100%;
+    width: auto;
+}
+.aboutText{
+    margin: 20px;
+    max-width: 900px;
 }

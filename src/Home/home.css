@@ -11,9 +11,9 @@
 }
 
 .backgroundcontainer{
-    background: url(../Assets/bkgsquares.svg);
+    background: url(../Assets/SVG/stars_1.svg);
     height: 100%;
-    width: 150%;
+    width: 154%;
     background-size: cover;
     background-position-x: 0%;
     /* background-repeat: repeat-x; */
@@ -26,19 +26,35 @@
     overflow: hidden;
 }
 
-.comets{
-    background: url(../Assets/comets.svg);
-    position: relative;
-    height: 150%;
-    width: 100%;
-    /* animation: cometslide 2s linear infinite; */
+
+.planet{
+    height: 50%;
+    width: 50%;
+    margin-top: 100px;
+    max-width: 400px;
 }
 
-.tslogo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
+.ship{
+    animation: rotateleft 10s linear infinite;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    height: 60%;
+    width: 60%;
+}
+.rotateplanet{
+    animation: rotateright 25s linear infinite;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    height: 40%;
+    width: 40%;
 }
 
 .arrows{
@@ -72,7 +88,7 @@
 
 @keyframes bkgslide{
     100%{
-        background-position-x: 50%;
+        background-position-x: 150%;
     }
 }
 
@@ -97,5 +113,20 @@
     100%{
         margin-top: 0%;
     
+    }
+}
+
+@keyframes rotateright{
+    from{
+        transform: rotate(0deg);
+    } to{
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotateleft{
+    from{
+        transform: rotate(0deg);
+    } to{
+        transform: rotate(-360deg);
     }
 }
