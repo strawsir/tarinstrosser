@@ -1,5 +1,4 @@
 import React from 'react';
-
 import NavBar from './Navigation/navbar';
 // import Home from './Home/home';
 import './App.css'
@@ -9,6 +8,7 @@ import About from './About/About';
 import Portfolio from './Portfolio/Portfolio.js'
 import Contact from './Contact/Contact';
 import PageBottom from './Footer/Footer';
+import './reset.css'
 // import Drips from './Accents/drips';
 
 function App() {

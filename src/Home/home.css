@@ -1,13 +1,101 @@
 .Home{
-    background: url(../Assets/Background_One.svg);
     background-size: cover;
     height: 95vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
-    max-width: 100%;
+    /* max-width: 100%; */
     justify-content: center;
     flex-direction: column;
     align-items: center;
     overflow: hidden;
 }
 
+.backgroundcontainer{
+    background: url(../Assets/bkgsquares.svg);
+    height: 100%;
+    width: 150%;
+    background-size: cover;
+    background-position-x: 0%;
+    /* background-repeat: repeat-x; */
+    animation: bkgslide 25s linear infinite;
+    display: flex;
+    /* max-width: 100%; */
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.comets{
+    background: url(../Assets/comets.svg);
+    position: relative;
+    height: 150%;
+    width: 100%;
+    /* animation: cometslide 2s linear infinite; */
+}
+
+.tslogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.arrows{
+    height: 50px;
+    width: 50px;
+    margin-top: 320px;
+    position: absolute;
+    z-index: 999;
+}
+
+.arrows>svg{
+    width: 50px;
+    animation: arrowfloat 10s ease-in-out infinite;
+    cursor: pointer;
+}
+ 
+.arrows>svg:hover > #singlearrow{
+    stroke: white;
+}
+
+
+
+
+.tslogo>svg{
+    width: 75vw;
+    height: auto;
+    max-width: 550px;
+}
+
+
+
+@keyframes bkgslide{
+    100%{
+        background-position-x: 50%;
+    }
+}
+
+@keyframes arrowfloat{
+    0%{
+        
+        margin-top: 0%;
+        
+    }
+    25%{
+        margin-top: 25%;
+    }
+    50%{
+        margin-top: 0%;
+        
+    }
+
+    75%{
+        margin-top: 30%;
+    }
+
+    100%{
+        margin-top: 0%;
+    
+    }
+}

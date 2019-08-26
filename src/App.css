@@ -3,6 +3,10 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  width: 100vw;
+  background: #fee6ee;
+  overflow: hidden;
+  
 }
 
 .App-header{
@@ -10,4 +14,5 @@
   width: 100%;
   justify-content: center;
 }
+
 
