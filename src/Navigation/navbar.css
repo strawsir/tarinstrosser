@@ -24,22 +24,29 @@ z-index: 1000;
 
 .NavRight{
     display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
 }
 .NavLeft{
     height: auto;
     width: 150px;
-
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
 .NavRight>div{
     display: flex;
-    margin: 7px;
-    background: navy;
+    margin: 12px;
     height: 125px;
     align-items: center;
     justify-content: center;
-    width: 150px;
+    width: auto;
     border-radius: 11PX;    
     
+}
+
+.NavRight>div:hover{
+    color: #b58aa0;
+    cursor: pointer;
 }
 
 #navitem{

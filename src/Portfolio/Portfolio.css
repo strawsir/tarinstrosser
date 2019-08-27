@@ -1,8 +1,29 @@
 .Portfolio{
-    height: 100vh;
-    background: papayawhip;
+    min-height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 75px;
+    flex-wrap: wrap;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 25px;
+}
+
+.project{
+    border-radius: 11px;
+    height: 300px;
+    width: 500px;
+    background: #fee6ee;
+    margin: 20px;
+    word-wrap: normal;
+    padding: 10px;
+}
+
+.projectimage{
+    height: 150px;
+    width: 250px;
+    background: #1b1026;
+    color: #fee6ee;
+    border-radius: 7px;
+
 }
