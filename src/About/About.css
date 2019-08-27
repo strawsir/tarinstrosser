@@ -1,27 +1,74 @@
 .About{
-    padding: 70px;
-    height: auto;
-    background: #6f6aa2;
+    /* padding: 70px; */
+    /* height: 100rem;
+    width: 100rem; */
+    /* background: #fab0bf; */
     display: flex;
     justify-content: center;
     align-items: center;
+    /* padding-bottom: 20vh; */
     flex-wrap: wrap;
-    min-height: 50vh;
+    font-family: 'Fredoka One', cursive;
+    background: url(../Assets/starbkg.svg);
+    background-size: 100%;
+    background-position-y: -35px; 
+    background-repeat: no-repeat;
+    color: #1b1026;
+    padding-top: 25vh;
+    height: 70vh;
+    /* overflow: hidden; */
+    text-align: left;
+}
+
+.aboutcontainer
+{
+    height: auto;
+    width: 100vw;
+    background: #fab0bf;
+    min-height: 70vh;
+    max-width: 100%;
+    padding-bottom: 25vh;
 }
 
 .aboutImage{
-    height: 250px;
-    width: 250px;
+    height: 50vw;
+    width: 50vw;
     display: flex;
     overflow: hidden;
     border-radius: 50%;
-    border: 10px solid white;
+    border: 10px solid #372744;
+    max-height: 450px;
+    max-width: 450px;
 }
 .aboutImage>img{
     height: 100%;
     width: auto;
 }
 .aboutText{
+    height: 20vw;
+    max-height: 450px;
     margin: 20px;
     max-width: 900px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 99vw;
 }
+
+.aboutme>h1, .skills>h1{
+    font-size: 50px;
+}
+
+.skills{
+    max-width: 900px;
+    width: 99vw;
+
+}
+
+/* @media(max-width:1408px){
+    .aboutText{
+      padding-bottom: 20vh;
+    }
+  } */

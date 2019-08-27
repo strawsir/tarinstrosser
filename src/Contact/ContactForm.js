@@ -33,18 +33,21 @@ class ContactForm extends Component{
 
     render(){
         return(
-            <div className="col-sm-4 offset-sm-4">
+            <div>
+                <div className="head">
+                <h1>Contact Me!</h1>
+                </div>
                 <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
                     <div className="form-group">
-                        <label>Name</label>
+                        <label>Name</label><br/>
                         <input type="text" className="form-control" id="name" />
                     </div>
                     <div className="form-group">
-                        <label>Email address</label>
+                        <label>Email address</label><br/>
                         <input type="email" className="form-control" id="email" aria-describedby="emailHelp" />
                     </div>
                     <div className="form-group">
-                        <label>Message</label>
+                        <label>Message</label><br/>
                         <textarea className="form-control" rows="5" id="message"></textarea>
                     </div>
                     <button type="submit" className="btn btn-primary">Submit</button>
